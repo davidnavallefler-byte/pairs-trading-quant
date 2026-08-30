@@ -62,3 +62,4 @@ $$Z = \frac{Spread - \mu}{\sigma}$$
     ```
 ## Some possible improvements
 * **Dynamic Hedge Ratio:** Implement a Kalman Filter or Rolling OLS instead of a static historical Beta to adapt to changing market regimes.
+* **Transaction Costs & Slippage:** Incorporate realistic bid-ask spreads and broker fees into the vectorized backtester.
