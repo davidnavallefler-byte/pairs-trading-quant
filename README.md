@@ -60,3 +60,5 @@ $$Z = \frac{Spread - \mu}{\sigma}$$
     python cointegration_test.py    # Runs OLS and Engle-Granger tests
     python backtester.py            # Executes the trading simulation
     ```
+## Some possible improvements
+* **Dynamic Hedge Ratio:** Implement a Kalman Filter or Rolling OLS instead of a static historical Beta to adapt to changing market regimes.
